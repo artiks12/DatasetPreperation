@@ -69,7 +69,7 @@ def GetDataFromLikumi(html_content):
 
 
 def MainGetInstructions():
-    data = ReadQuestionsFromFolder('data/Testing')
+    data = ReadQuestionsFromFolder('data')
 
     results = []
     id = 0
