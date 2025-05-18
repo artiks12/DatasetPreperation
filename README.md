@@ -4,6 +4,9 @@ This is the repository to create datasets for fine-tuning models and instruction
 ### Data used
 The base data used is available here: http://hdl.handle.net/20.500.12574/130. You need to be able to sign in to download and use this dataset.
 
+### Python and packages
+This script was used with Python 3.10 so it is recomended to use this version of python. You also need to install PyQuery and bs4 packages.
+
 ### How to get instructions for testing
 1) Put the test data in data folder
 2) Run GetModelTestInstructions.py script
