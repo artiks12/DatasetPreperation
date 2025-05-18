@@ -3,7 +3,6 @@ from os import listdir
 from os.path import isfile, join
 import json
 from bs4 import BeautifulSoup as bs
-import ollama
 import re
 import requests
 
