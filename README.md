@@ -24,6 +24,6 @@ These datasets are uused in model fine-tuning process. The link to model fine-tu
 ### Version 2
 There are two problems with the GetmodelTestInstructions.py script
 - It does not filter out duplicates
-- It might crash
+- It might crash if the link is incorrect or the HTML DOM is not made properly.
 
-TO prevent these issues use GetModelTestInstructions_v2.py script. The original was used for the thesis.
+To prevent these issues use GetModelTestInstructions_v2.py script. The original was used for the thesis.
