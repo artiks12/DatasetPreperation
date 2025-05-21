@@ -20,3 +20,10 @@ These instructions are used to generate responses for models to test them. The l
 3) The datasets will be stored in datasets folder
 
 These datasets are uused in model fine-tuning process. The link to model fine-tuning repository is here: https://github.com/artiks12/ModelFineTuningPipeline 
+
+### Version 2
+There are two problems with the GetmodelTestInstructions.py script
+- It does not filter out duplicates
+- It might crash
+
+TO prevent these issues use GetModelTestInstructions_v2.py script. The original was used for the thesis.
